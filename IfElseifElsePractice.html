@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IfElseifElsePractice</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let username = prompt("Nhập tên đê anh giai!!", "");
+
+    if (username == "Admin"){
+        let password = prompt("Nhập mật khẩu đê bạn hiền!!!", "");
+        if (password == "TheMaster"){
+            alert("Welcome, Master!!");
+        }
+        else if (!password){
+            alert("Không xác định!! Hủy thao tác.");
+        }
+        else {
+            alert("Sai pass rồi nhé!!");
+        }
+    }
+    else if (!username){
+        alert("Không xác định!! Hủy thao tác");
+    }
+    else {
+        alert("Cô là ai?? Cô đi ra đi!!");
+    }
+</script>
